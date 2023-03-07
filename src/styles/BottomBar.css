@@ -1,0 +1,41 @@
+.bottomBar {
+  height: 25px;
+  background-color: #24292e;
+  border-top: 1px solid #1b1f23;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 5px;
+  /* color: white; */
+}
+.itemsContainer {
+  font-size: 0.8rem;
+  display: flex;
+  flex-direction: row;
+  align-content: space-between;
+}
+
+.group {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  cursor: pointer;
+  color: #e1e4e8;
+  /* color: white; */
+}
+.group > * {
+  padding-left: 5px;
+}
+
+.itemsContainer > * {
+  padding-right: 10px;
+}
+
+.errorItemsContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+#errorItem > * {
+  padding-right: 1px;
+}

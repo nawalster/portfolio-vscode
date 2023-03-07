@@ -1,0 +1,75 @@
+.layout {
+  display: grid;
+  grid-template: 20px 40px 1fr 0fr / 65px 200px 1fr;
+  width: 100vw;
+  height: 100vh;
+}
+
+.menuBar {
+  grid-area: 1 / 1 / 1 / 4;
+}
+
+.sidebar {
+  grid-column: 1 / 2;
+  grid-row: 2 / 4;
+}
+
+.explorer {
+  grid-column: 2 / 3;
+  grid-row: 2 / 4;
+}
+
+.tabsbar {
+  grid-column: 3 /4;
+  grid-row: 2 / 3;
+}
+
+.editor {
+  grid-column: 3 / 4;
+  grid-row: 3 / 4;
+}
+
+.bottomBar {
+  grid-column: 1 / 4;
+  grid-row: 4 / 4;
+}
+
+/* .main {
+  display: flex;
+  background-color: blue;
+
+}
+
+.content {
+  padding: 2rem;
+  color: var(--text-color);
+  font-family: "JetBrains Mono", monospace;
+  flex: 1;
+  height: 85vh;
+  overflow-y: auto;
+}
+
+.content {
+  scrollbar-width: 10px;
+  scrollbar-color: var(--accent-color);
+}
+
+.content::-webkit-scrollbar {
+  width: 15px;
+}
+
+.content::-webkit-scrollbar-track {
+  background: var(--scrollbar-track-bg);
+  border-left: 1px solid #1e1f29;
+}
+
+.content::-webkit-scrollbar-thumb {
+  background: var(--scrollbar-thumb-bg);
+  border-left: 1px solid #1e1f29;
+}
+
+@media screen and (max-width: 600px) {
+  .content {
+    padding: 2rem 1rem;
+  }
+}  */

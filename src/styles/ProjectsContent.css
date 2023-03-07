@@ -1,0 +1,18 @@
+@import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@200;400&display=swap");
+
+.AboutContent {
+  /* height: 60vh; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.ProjectsContent__heading {
+  display: flex;
+  flex-direction: column;
+  font-size: 1.5rem;
+  flex-wrap: nowrap;
+  padding: 1.5rem;
+  font-family: "JetBrains Mono", monospace;
+}

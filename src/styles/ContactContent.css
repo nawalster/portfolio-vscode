@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@200;400&display=swap");
+
+.contactPage {
+  font-family: "JetBrains Mono", monospace;
+  line-height: 1.6rem;
+  font-size: 1.5rem;
+  display: flex;
+  flex-flow: column;
+  padding-left: 2rem;
+  margin-top: -0.5rem;
+}
+.contact {
+  font-family: "JetBrains Mono", monospace;
+  line-height: 1.6rem;
+}
+.contactContainer {
+  padding-top: 1.3rem;
+  display: flex;
+  font-size: 1.2rem;
+}
+
+.contactContainer__inner {
+  /* padding: 3rem; */
+}
+
+.contact__title {
+  padding-left: 0.3rem;
+}
+
+.contact__single {
+  padding-left: 2rem;
+}
+
+.numbers {
+  display: flex;
+  flex-direction: column;
+  padding-right: 0.6rem;
+  color: #808080;
+}
+
+.form {
+  padding-top: 2rem;
+}

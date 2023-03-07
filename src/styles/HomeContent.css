@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@200;400&display=swap");
+.homepageContent {
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.homePageName {
+  display: flex;
+  flex-direction: column;
+  font-size: 3.5rem;
+  flex-wrap: nowrap;
+  padding: 1.5rem;
+}
+
+.homePageName > * {
+  padding-top: 3.2rem;
+  font-family: "JetBrains Mono", monospace;
+}
+
+.homePageWorkTitle {
+  padding-top: 25px;
+  padding: 1.5rem;
+  width: max-content;
+  color: #eee;
+  font-size: 1.3rem;
+  font-weight: 300;
+  font-family: "JetBrains Mono", monospace;
+  display: flex;
+}
+
+/* blinking cursor */
+.blinking-cursor {
+  font-weight: 100;
+  background: lime;
+  background-color: #f8816c;
+  color: #f8816c;
+  line-height: 20rem;
+  -webkit-animation: blink 0.8s infinite;
+  margin-left: 0.4rem;
+  width: 0.125em;
+  height: 1.3rem;
+}
+
+@-webkit-keyframes blink {
+  0% {
+    background: #222;
+  }
+  50% {
+    background-color: #f8816c;
+  }
+  100% {
+    background: #222;
+  }
+}
+
+.homePageButtons {
+  padding: 1.5rem;
+}
+
+.homePageButtons > * {
+  font-size: 1.25rem;
+  cursor: pointer;
+  color: #eee;
+  padding: 0.5rem 1rem;
+  margin-right: 1.3rem;
+  border: 2px solid #f8816c;
+  text-decoration: none;
+}
+
+#view-work {
+  background-color: #f8816c;
+}
+
+/* #contact-me {
+  background-color: transparent;
+} */
+
+.button {
+  background-color: transparent;
+}
+
+/* .homepageContent {
+  height: 85vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: 0%;
+}
+
+.homePageName {
+  display: flex;
+  flex-direction: column;
+  color: #eee;
+  font-size: 3.5rem;
+  font-weight: 500;
+}
+
+.homePageWorkTitle {
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  color: #eee;
+  font-size: 1.5rem;
+  font-weight: 300;
+}  */

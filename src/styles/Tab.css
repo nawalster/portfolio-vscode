@@ -1,0 +1,48 @@
+.tab {
+  background-color: #1f2428;
+  /* background-color: yellow; */
+  cursor: pointer;
+  display: flex;
+  flex-wrap: nowrap;
+  /* justify-content: center; */
+  align-self: center;
+  /* align-items: center; */
+  border: 1px solid #24292e#1f2428;
+  /* padding: 5px 15px; */
+  padding-top: 5px;
+  padding-right: 18px;
+  padding-bottom: 5px;
+  padding-left: 15px;
+}
+
+.tab > * {
+  display: flex;
+  flex-direction: row;
+  /* align-items: center; */
+  padding-right: 0.25rem;
+  color: #e1e4e8;
+  text-decoration: none;
+}
+
+/* #1f2428 */
+
+.active {
+  background-color: #25292d;
+  /* background-color: yellow; */
+  border-top: 1px solid #f9826c;
+  border-bottom: none;
+}
+
+.tab__icon {
+  height: 1.3rem;
+  width: 1.3rem;
+}
+
+/* .icontTab > svg {
+  stroke: currentcolor;
+  fill: currentcolor;
+  stroke-width: 0;
+  height: 1em;
+  width: 1em;
+  background-color: red;
+} */

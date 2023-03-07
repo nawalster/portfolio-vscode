@@ -1,0 +1,84 @@
+.App {
+  font-family: sans-serif;
+  /* text-align: center; */
+}
+
+body {
+  background-color: #1e1e1e;
+  color: #d4d4d4;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 14px;
+  line-height: 18px;
+  margin: 0;
+  padding: 0;
+}
+
+/* .editor {
+  background-color: #1e1e1e;
+  height: 100vh;
+  padding: 20px;
+  width: 100%;
+}
+
+.editor-header {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.editor-title {
+  color: #d4d4d4;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.editor-tabs {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+.editor-tab {
+  background-color: #1e1e1e;
+  border: 1px solid #d4d4d4;
+  border-bottom: none;
+  color: #d4d4d4;
+  cursor: pointer;
+  font-size: 14px;
+  padding: 8px 12px;
+}
+
+.editor-tab.active {
+  background-color: #d4d4d4;
+  color: #1e1e1e;
+}
+
+.editor-tab:not(:last-child) {
+  margin-right: 4px;
+}
+
+.editor-content {
+  background-color: #1e1e1e;
+  border: 1px solid #d4d4d4;
+  height: calc(100vh - 125px);
+  padding: 20px;
+  width: 100%;
+}
+
+.editor-line {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.editor-line-number {
+  color: #8f908a;
+  font-size: 14px;
+  margin-right: 20px;
+  width: 30px;
+}
+
+.editor-line-content {
+  flex: 1;
+} */

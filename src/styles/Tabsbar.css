@@ -1,0 +1,13 @@
+.tabsbar {
+  /* background-color: yellow; */
+  display: flex;
+  flex-direction: row;
+  /* align-items: center; */
+  margin-top: 8px;
+  margin-left: -20px;
+  padding: 0.15rem 1.25rem;
+}
+
+.tabsbar__tab > * {
+  padding-right: 10px;
+}
