@@ -32,6 +32,13 @@
   padding-left: 2rem;
 }
 
+.link__single {
+  text-decoration: none;
+}
+.link__single:hover {
+  text-decoration: underline;
+}
+
 .numbers {
   display: flex;
   flex-direction: column;

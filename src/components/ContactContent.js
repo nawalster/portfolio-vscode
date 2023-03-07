@@ -3,14 +3,22 @@ import { Link } from "react-router-dom";
 import "../styles/ContactContent.css";
 
 const contactInfo = [
-  { type: "email", text: "nawal@gmail.com", link: null },
-  { type: "linkedin", text: "nawal@gmail.com", link: "https://www.google.com" },
+  { type: "email", text: "nawal.alsaidi@gmail.com", link: null },
+  {
+    type: "linkedin",
+    text: "nawalalsaidi",
+    link: "https://www.linkedin.com/in/nawalalsaidi",
+  },
   {
     type: "codesandbox",
-    text: "nawal@gmail.com",
-    link: "https://www.google.com/"
+    text: "nawalster",
+    link: "https://codesandbox.io/u/nawalster",
   },
-  { type: "github", text: "nawal@gmail.com", link: "https://www.google.com/" }
+  {
+    type: "github",
+    text: "nawalster",
+    link: "https://github.com/nawalster",
+  },
 ];
 
 const ContactContent = () => {
@@ -29,18 +37,19 @@ const ContactContent = () => {
               .socials <span style={{ color: "white" }}>{`{`}</span>
             </span>
 
-            <div className="contact__single">
+            <div>
               {contactInfo.map((info) => (
-                <div key={info.type}>
+                <div className="contact__single" key={info.type}>
                   <span>{info.type}</span> <span>: </span>
                   {info.link !== null ? (
                     <a
+                      className="link__single"
                       href={info.link}
                       target="_blank"
                       rel="noopener noreferrer"
+                      style={{ color: "#f8816c" }}
                     >
-                      <span style={{ color: "#f8816c" }}>{info.text}</span>{" "}
-                      {/* add copy to clipboard? */}
+                      <span>{info.text}</span>
                     </a>
                   ) : (
                     <span style={{ color: "#f8816c" }}>{info.text}</span>
